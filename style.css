@@ -1,3 +1,4 @@
+
 body{
     margin:0;
     padding:0;
@@ -8,7 +9,6 @@ a{
 }
 section{
     margin-bottom: 40px;
-    padding: 0 100px;
 }
 .header{
     display: flex;
@@ -17,11 +17,15 @@ section{
     justify-content: space-evenly;
 }
 .left-content{
-    width:50%;
-    
+    width:50%;  
+}
+.header .left-content h1{
+    font-size: 30px;
+    font-weight: bolder;
 }
 .left-content span{
     color: #ff7942;
+    
 }
 .right-content{
     width: 50%;
@@ -61,7 +65,8 @@ section{
 .recipies{
     display: flex;
     margin-top: 20px;
-    justify-content: space-between
+    justify-content: space-between;
+    padding: 20px 100px;
 }
 .card{
     width: 28%;
@@ -69,13 +74,10 @@ section{
     background-color: #fff;
     border-radius: 35px;
     box-shadow: 1px 1px 15px rgba(65, 64, 64, 0.3), -1px 0 15px rgba(94, 93, 93, 0.3);
-   
-
 }
 .card img{
     height: 300px;
-    width:95%;
-    padding: 10px;
+    width: 100%;
     border-radius: 35px;
 }
 .card h1{
@@ -112,7 +114,7 @@ section{
 }
 .subscrive{
     padding-bottom:30px;
-    margin: 0 auto;
+    margin: 0 30%;
 }
 .subscrive .design{
     border: 2px solid salmon;
