@@ -1,0 +1,14 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    padding:10px 25px;
+    background-image: linear-gradient(to right,#fcab68, #fd3a1c);
+    border-radius: 50px;
+    box-shadow: 2px 2px  5px #ff8976;
+}
