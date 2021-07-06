@@ -112,7 +112,7 @@ section{
 }
 .subscrive{
     padding-bottom:30px;
-    margin: 0 250px;
+    margin: 0 auto;
 }
 .subscrive .design{
     border: 2px solid salmon;
@@ -120,4 +120,21 @@ section{
     border-radius: 5px;
     line-height: 30px;
 }
-   
+footer{
+    background-color: black;
+    margin: 30px 0;
+    padding: 20px 0px;
+}
+footer h1{
+    color: slategrey;
+    text-align: center;
+
+}
+footer h1 span{
+    color:salmon;
+    text-align: center;
+}
+footer p{
+    color: rgb(233, 231, 231);
+    text-align: center;
+}
